@@ -279,162 +279,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Small_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small_US"
-				(at 0.254 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "capacitor, small US symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Small_US_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 -0.762)
-					(mid 0 -0.3734)
-					(end 1.524 -0.762)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_US_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Polarized_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -576,6 +420,162 @@
 				)
 			)
 			(symbol "C_Polarized_Small_US_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small_US"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "capacitor, small US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_US_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 -0.762)
+					(mid 0 -0.3734)
+					(end 1.524 -0.762)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_US_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -2297,6 +2297,12 @@
 		(uuid "abb1ead7-74d3-4f2a-9289-d3f2dfc90391")
 	)
 	(junction
+		(at 130.81 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3fd9cac-f698-4602-84cc-9506aeb0aa5d")
+	)
+	(junction
 		(at 157.48 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2612,6 +2618,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 57.15) (xy 130.81 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5186dd13-c09c-4d68-bc32-26ab8331c76b")
+	)
+	(wire
+		(pts
 			(xy 157.48 93.98) (xy 158.75 93.98)
 		)
 		(stroke
@@ -2792,7 +2808,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 64.77) (xy 138.43 64.77)
+			(xy 121.92 64.77) (xy 130.81 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2839,6 +2855,16 @@
 			(type default)
 		)
 		(uuid "91848514-e66d-40f4-bf0f-8cf3d2004d3b")
+	)
+	(wire
+		(pts
+			(xy 130.81 64.77) (xy 138.43 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92449824-fae2-4037-89e2-4a809dbd8df0")
 	)
 	(wire
 		(pts
@@ -3062,6 +3088,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 71.12) (xy 101.6 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d65e19b1-d98c-4f01-9cf5-4cbefe09b2b1")
+	)
+	(wire
+		(pts
 			(xy 186.69 104.14) (xy 186.69 115.57)
 		)
 		(stroke
@@ -3119,6 +3155,16 @@
 			(type default)
 		)
 		(uuid "e0cbbe52-dd8a-4ab2-a89b-c248796f1d30")
+	)
+	(wire
+		(pts
+			(xy 101.6 76.2) (xy 101.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e17af49a-3cdb-4dca-bfef-d4630add98a2")
 	)
 	(wire
 		(pts
@@ -3369,6 +3415,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 101.6 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06bc8754-e44b-4601-a3bc-cbdbbe0a0c63")
+		(property "Reference" "#PWR03"
+			(at 101.6 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0fb09e1-97fb-4d2e-a4da-6f1cbc6caa8d")
+		)
+		(instances
+			(project "Rfid em"
+				(path "/e2bf8cb3-6555-4638-8689-ab1ddc960b21"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 120.65 105.41 0)
 		(unit 1)
@@ -3413,7 +3537,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "885012207080 Datasheet WCAP-CSGP Ceramic Capacitors 0805"
 			(at 120.65 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3435,6 +3559,28 @@
 				)
 			)
 		)
+		(property "Buying Links" "10nF 103 0805 (2012 metric) 50V X7R MLCC SMD [4034] : Sunrom Electronics"
+			(at 120.65 105.41 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" "SMD Capacitor"
+			(at 120.65 105.41 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8e86496c-b937-49c0-ad58-dce828e9b845")
 		)
@@ -3445,6 +3591,118 @@
 			(project "Rfid em"
 				(path "/e2bf8cb3-6555-4638-8689-ab1ddc960b21"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 128.27 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0808d9d1-04f4-4f0c-ad27-8accf72c5e8b")
+		(property "Reference" "C10"
+			(at 128.27 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 128.27 53.975 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 128.27 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 128.27 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100nF Ceramic Capacitor, IC1 (EM4095) VDD (pin 7) local decoupling per datasheet, placed as close as possible to the pin"
+			(at 128.27 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0603C104K5RACTU"
+			(at 128.27 57.15 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 128.27 57.15 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" "SMD Capacitor"
+			(at 128.27 57.15 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2490cf28-8549-4241-be68-ccac8ce1574b")
+		)
+		(pin "2"
+			(uuid "ba14be46-d155-4715-b27f-ad732d491d13")
+		)
+		(instances
+			(project "Rfid em"
+				(path "/e2bf8cb3-6555-4638-8689-ab1ddc960b21"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3494,7 +3752,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "885012207080 Datasheet WCAP-CSGP Ceramic Capacitors 0805"
 			(at 186.69 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3509,6 +3767,28 @@
 			(at 186.69 101.6 0)
 			(hide yes)
 			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buying Links" "10nF 103 0805 (2012 metric) 50V X7R MLCC SMD [4034] : Sunrom Electronics"
+			(at 186.69 101.6 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" "SMD Capacitor"
+			(at 186.69 101.6 0)
+			(hide yes)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -3596,6 +3876,50 @@
 				)
 			)
 		)
+		(property "MPN" "AMS1117-5.0"
+			(at 207.01 78.74 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Advanced Monolithic Systems"
+			(at 207.01 78.74 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buying Links" "https://www.sunrom.com/p/1117-5v-1a-sot223-low-drop-linear-voltage-regulator?utm_source=chatgpt.com | https://kitsguru.com/products/ams1117-5v-voltage-regulator-ic-smd-sot-223-package?variant=47171222241532&country=IN&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorqmcEFiQxm-8AlCkNfKVmL5Sjl8wfF4-F-0TBRfA92PUpajMMSXkg | https://www.fabtolab.com/ams1117-5-cost-effective-low-dropout-ldo-voltage-regulator-current-1-amp-maximum-input-15v?utm_source=chatgpt.com | https://robu.in/product/ams1117-5-0v-1a-sot-223-voltage-regulator-ic-pack-of-5-ics/?utm_source=chatgpt.com"
+			(at 207.01 78.74 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" "Voltage Regulator"
+			(at 207.01 78.74 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3efc0298-289e-4dd3-8337-a2cd4ceb9dfb")
 		)
@@ -3626,28 +3950,28 @@
 		(dnp no)
 		(uuid "2656e650-79f5-495d-aa7f-599e234f7e7a")
 		(property "Reference" "C8"
-			(at 198.882 100.584 0)
+			(at 199.39 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10 uF"
-			(at 198.882 105.156 0)
+			(at 199.39 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C"
 			(at 201.93 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3658,7 +3982,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"
 			(at 201.93 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3669,7 +3993,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF 16V Tantalum Capacitor, AMS1117-5.0 input bypass capacitor (per datasheet application circuit)"
+		(property "Description" "10uF 35V Tantalum Capacitor, AMS1117-5.0 input bypass capacitor (per datasheet application circuit)"
 			(at 201.93 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3680,7 +4004,7 @@
 				)
 			)
 		)
-		(property "MPN" "T491A106K016AT"
+		(property "MPN" "T491C106K035AT"
 			(at 201.93 102.87 0)
 			(hide yes)
 			(show_name yes)
@@ -3702,6 +4026,17 @@
 				)
 			)
 		)
+		(property "Name" "Tantalum Capacitor"
+			(at 201.93 102.87 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5fcc399e-9b04-4a9b-b6bf-fab6a9de7678")
 		)
@@ -3712,285 +4047,6 @@
 			(project "Rfid em"
 				(path "/e2bf8cb3-6555-4638-8689-ab1ddc960b21"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 101.6 76.2) (xy 101.6 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e17af49a-3cdb-4dca-bfef-d4630add98a2")
-	)
-	(wire
-		(pts
-			(xy 101.6 71.12) (xy 101.6 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d65e19b1-d98c-4f01-9cf5-4cbefe09b2b1")
-	)
-	(symbol
-		(lib_id "Device:C_Small_US")
-		(at 101.6 73.66 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dc348b0d-d05b-4b45-b5ea-b32fa10bd65e")
-		(property "Reference" "C9"
-			(at 104.14 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 104.14 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 101.6 73.66 180)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.emmicroelectronic.com/sites/default/files/products/datasheets/em4095_ds.pdf"
-			(at 101.6 73.66 180)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100nF Ceramic Capacitor, IC1 (EM4095) VDD/DVDD local decoupling per datasheet: blocks supply spikes caused by the antenna drivers, placed as close as possible to the chip"
-			(at 101.6 73.66 180)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRM21BR71H104KA01L"
-			(at 101.6 73.66 180)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 101.6 73.66 180)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d9a8e841-a072-43a2-a717-83535a18f67c")
-		)
-		(pin "2"
-			(uuid "6b904046-3969-462f-94b3-3fe8b106298a")
-		)
-		(instances
-			(project "Rfid em"
-				(path "/e2bf8cb3-6555-4638-8689-ab1ddc960b21"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 101.6 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89069eec-07ba-4329-9daa-a9d89067ca7d")
-		(property "Reference" "#PWR04"
-			(at 101.6 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VDD"
-			(at 101.6 65.024 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 101.6 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "001ed53e-602a-4435-9bfd-5b4aca38282d")
-		)
-		(instances
-			(project "Rfid em"
-				(path "/e2bf8cb3-6555-4638-8689-ab1ddc960b21"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 101.6 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06bc8754-e44b-4601-a3bc-cbdbbe0a0c63")
-		(property "Reference" "#PWR03"
-			(at 101.6 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f0fb09e1-97fb-4d2e-a4da-6f1cbc6caa8d")
-		)
-		(instances
-			(project "Rfid em"
-				(path "/e2bf8cb3-6555-4638-8689-ab1ddc960b21"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4195,7 +4251,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"
 			(at 173.99 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4229,6 +4285,17 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
+			(at 173.99 88.9 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" "Tantalum Capacitor"
 			(at 173.99 88.9 0)
 			(hide yes)
 			(show_name yes)
@@ -4298,7 +4365,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "885012207080 Datasheet WCAP-CSGP Ceramic Capacitors 0805"
 			(at 104.14 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4313,6 +4380,28 @@
 			(at 104.14 88.9 0)
 			(hide yes)
 			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buying Links" "1nF 102 0805 (2012 metric) 50V X7R MLCC SMD [4035] : Sunrom Electronics"
+			(at 104.14 88.9 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" "SMD Capacitor"
+			(at 104.14 88.9 0)
+			(hide yes)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -4457,7 +4546,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "885012207080 Datasheet WCAP-CSGP Ceramic Capacitors 0805"
 			(at 109.22 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4472,6 +4561,28 @@
 			(at 109.22 99.06 0)
 			(hide yes)
 			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buying Links" "100pF 101 0805 (2012 metric) 50V X7R MLCC SMD [4479] : Sunrom Electronics"
+			(at 109.22 99.06 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" "SMD Capacitor"
+			(at 109.22 99.06 0)
+			(hide yes)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -4538,7 +4649,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "4095 Data Sheet"
 			(at 139.7 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4700,6 +4811,28 @@
 				)
 			)
 		)
+		(property "Buying Links" "EM4095HMSO16B+ EM Microelectronic | RF and Wireless | DigiKey | https://inkocean.in/products/em4095-em4095hms016a-sop16-emc?srsltid=AfmBOorOSs4DrSeDIcBxNdanfqawYjgKQhpS-1G4jR6s_B2c5BYtnifF"
+			(at 139.7 88.9 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" "IC"
+			(at 139.7 88.9 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "12"
 			(uuid "df1efc7b-4dd8-4c59-976e-5fb8847f8b6f")
 		)
@@ -4800,7 +4933,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "Microsoft Word - 170_SLOAN_01C_03.12_SMD1206.doc"
 			(at 125.73 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4826,6 +4959,28 @@
 			(at 125.73 119.38 0)
 			(hide yes)
 			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buying Links" "Buy 1206 Surface mount LED White Online at Best Price | Robu.in"
+			(at 125.73 119.38 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" "SMD LED"
+			(at 125.73 119.38 0)
+			(hide yes)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -4892,7 +5047,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "885012207080 Datasheet WCAP-CSGP Ceramic Capacitors 0805"
 			(at 162.56 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4914,6 +5069,28 @@
 				)
 			)
 		)
+		(property "Buying Links" "08055C242KAT2A KYOCERA AVX | Mouser India"
+			(at 162.56 82.55 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" "SMD Capacitor"
+			(at 162.56 82.55 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "23d9dce2-ce3c-4214-a4dc-4b700443c2c9")
 		)
@@ -4924,6 +5101,162 @@
 			(project "Rfid em"
 				(path "/e2bf8cb3-6555-4638-8689-ab1ddc960b21"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 101.6 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89069eec-07ba-4329-9daa-a9d89067ca7d")
+		(property "Reference" "#PWR04"
+			(at 101.6 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 101.6 65.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 101.6 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "001ed53e-602a-4435-9bfd-5b4aca38282d")
+		)
+		(instances
+			(project "Rfid em"
+				(path "/e2bf8cb3-6555-4638-8689-ab1ddc960b21"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4b1abd5-ce99-47bd-bc81-f0c6f64dcd63")
+		(property "Reference" "#PWR05"
+			(at 125.73 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70ea17b3-8365-420e-9c4a-c78805b76bdd")
+		)
+		(instances
+			(project "Rfid em"
+				(path "/e2bf8cb3-6555-4638-8689-ab1ddc960b21"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4972,7 +5305,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 114.3 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4987,6 +5320,28 @@
 			(at 114.3 120.65 0)
 			(hide yes)
 			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buying Links" "Buy RT1206FRE071KL Resistors Online in India | Robu.in"
+			(at 114.3 120.65 90)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" "SMD Resistor"
+			(at 114.3 120.65 90)
+			(hide yes)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -5130,7 +5485,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "0805 datasheet(1/6 Pages) MACOM | SMD High Power Precision Resistors"
 			(at 147.32 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5145,6 +5500,28 @@
 			(at 147.32 71.12 0)
 			(hide yes)
 			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buying Links" "33K 1% 0805 [4321] : Sunrom Electronics"
+			(at 147.32 71.12 90)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" "SMD Resistor"
+			(at 147.32 71.12 90)
+			(hide yes)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -5324,6 +5701,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small_US")
+		(at 101.6 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc348b0d-d05b-4b45-b5ea-b32fa10bd65e")
+		(property "Reference" "C9"
+			(at 104.14 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 104.14 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 101.6 73.66 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71H104KA01-01.pdf"
+			(at 101.6 73.66 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100nF Ceramic Capacitor, IC1 (EM4095) DVDD (pin 4) local decoupling per datasheet: blocks supply spikes caused by the antenna drivers, placed as close as possible to the pin"
+			(at 101.6 73.66 180)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM21BR71H104KA01L"
+			(at 101.6 73.66 180)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 101.6 73.66 180)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" "SMD Capacitor"
+			(at 101.6 73.66 180)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9a8e841-a072-43a2-a717-83535a18f67c")
+		)
+		(pin "2"
+			(uuid "6b904046-3969-462f-94b3-3fe8b106298a")
+		)
+		(instances
+			(project "Rfid em"
+				(path "/e2bf8cb3-6555-4638-8689-ab1ddc960b21"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 213.36 120.65 0)
 		(unit 1)
@@ -5447,7 +5938,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 195.58 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5462,6 +5953,28 @@
 			(at 195.58 88.9 0)
 			(hide yes)
 			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buying Links" "Buy Header Pins 40x1 - 2.54mm Pitch - Brass - KTRON India"
+			(at 195.58 88.9 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" "6 Pin Connector"
+			(at 195.58 88.9 0)
+			(hide yes)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -5502,7 +6015,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5655,7 +6168,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "885012207080 Datasheet WCAP-CSGP Ceramic Capacitors 0805"
 			(at 139.7 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5670,6 +6183,28 @@
 			(at 139.7 110.49 0)
 			(hide yes)
 			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Buying Links" "470nF 474 0805 (2012 metric) 50V X7R MLCC SMD [3944] : Sunrom Electronics"
+			(at 139.7 110.49 90)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" "SMD Capacitor"
+			(at 139.7 110.49 90)
+			(hide yes)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font

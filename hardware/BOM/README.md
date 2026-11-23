@@ -23,13 +23,13 @@ The ESP32 reads and processes the decoded data.
 ## 📷 Project Images
 
 ### PCB Layout
-![PCB](images/Screenshot%202026-03-31%20210803.png)
+![PCB](../../images/Screenshot%202026-03-31%20210803.png)
 
 ### 3D View
-![3D](images/Screenshot%202026-03-31%20210818.png)
+![3D](../../images/Screenshot%202026-03-31%20210818.png)
 
 ### Schematic
-![Schematic](images/Screenshot%202026-03-31%20210833.png)
+![Schematic](../../images/Screenshot%202026-03-31%20210833.png)
 
 ---
 
@@ -60,14 +60,12 @@ The ESP32 reads and processes the decoded data.
 
 The complete list of components used in this project is available here:
 
-`hardware/BOM/rfid_reader_bom.csv`
+[`hardware/BOM/rfid_reader_bom.csv`](Bill_of_Materials_for_Rfid_143.2kHz%20-%20Sheet1.csv)
 
-It is generated from the schematic, so edit part data (Name, Datasheet, Buying Links, Manufacturer, MPN) in the symbol fields and re-export from `hardware/`:
+It is generated from the schematic, so edit part data (Name, Datasheet, Buying Links, Manufacturer, MPN) in the symbol fields and re-export it:
 
 ```sh
-kicad-cli sch export bom --fields 'Name,Reference,${QUANTITY},Value,Footprint,Datasheet,Buying Links,Manufacturer,MPN' --labels 'Name,Reference,Qty,Value,Footprint,Datasheet,Buying Links,Manufacturer,MPN' --group-by 'Value,Footprint,MPN' --exclude-dnp -o "BOM/Bill_of_Materials_for_Rfid_143.2kHz - Sheet1.csv" "Rfid em.kicad_sch"
-# keep the original CSV style (CRLF line endings, quotes only where needed)
-python3 -c "import csv,sys; r=list(csv.reader(open(sys.argv[1],newline='',encoding='utf-8'))); csv.writer(open(sys.argv[1],'w',newline='',encoding='utf-8'),lineterminator='\r\n').writerows(r)" "BOM/Bill_of_Materials_for_Rfid_143.2kHz - Sheet1.csv"
+hardware/export-bom.sh          # run from the repository root
 ```
 
 ### Key Components
